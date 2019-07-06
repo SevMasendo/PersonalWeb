@@ -1,0 +1,207 @@
+*{
+  font-family: Century Gothic;
+
+}
+.navbar{
+  opacity: .6;
+  background-color: #000;
+}
+#myNavbar{
+	background-color:#000; 
+}
+.navbar .container .collapse .nav li a{
+  font-size: 1em;
+  color: #fff;
+}
+.navbar .container .navbar-header .navbar-brand {
+  font-size: 1em;
+  color: #fff;
+ }
+.navbar .container .collapse .nav .active a{
+ color: #000;
+ background-color: #fff;
+}
+.navbar .container .collapse .nav li a:hover {
+  font-size: 1em;
+  color: #000;
+  background-color: #fff;  
+}
+#intro .container{
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+#intro .contents h1{
+	font-size: 3.5em;
+	padding-top: 250px;
+}
+.col-lg-4{
+	position: relative;
+	width: 390px;
+}
+#skills h1{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+#skills .container-fluid col-xs-6{
+	margin-top: 50px;
+}
+.btn-success {
+    color: #fff;
+    background-color: green;
+    border-color: green;
+    font-size: 25px;
+}
+.btn-success :hover{
+	background-color: 
+}
+.col-xs-12 {
+    margin-top: 20px;
+}
+p {
+    margin: 20px 0 10px;
+}
+#intro .row div{
+	position: absolute;
+	top: 20%;
+	color: #fff;
+	padding: 50px 40px;
+	text-align: center;
+}
+#intro .row div h1{
+	 font-size: 4em;
+	 text-shadow: 2px 2px 3px black;
+}
+#intro .row div h4{
+	text-align: center;
+	 font-size: 2em;
+	 text-shadow: 2px 2px 3px black;
+}
+#intro{
+	background-image: url("../images/mao.jpg");
+	height: 100vh;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+.overlay{
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+#about-me{
+	background-color: #fff;
+	padding-top: 50px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+#btn3{
+	padding: 10px;
+	margin-top: 25px;
+	font-size: 20px;
+	color: #fff;
+	background-color: green;
+}
+#view-btn{
+	margin-top: -50px;
+	width: 200px;
+	background-color: green;
+}
+#portfolio{
+	margin-top: 190px;
+	background-color: #fff;
+	height: 100vh;
+}
+.padding-bottom{
+	padding-bottom: 100px;
+}
+
+.par2{
+	padding-bottom: 50px;
+	font-size: 16px;
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.border{
+    border: 1px solid gray;
+    width: 290px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.col-md-3 .img-under {
+    width: 109%;
+    margin-left: -4.5%;
+    height: 250px;
+    border-radius: 3px;
+}
+.maps{
+	background-size: cover;
+}
+
+footer {
+	text-align: center;
+	padding: 5 ;
+	height: 24px;
+	background-color: #fff;
+	
+}
+
+footer p {
+	color: #000;
+	font-size: 20px;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+img {
+    display: block;
+}
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+/*Media Query*/
+@media screen and (max-width: 1024px){
+	.border{
+		border: 1px solid gray;
+		width: 370px;
+	}
+}
+@media screen and (max-width: 992px){
+	a{
+		font-size: 15px;
+}
+@media screen and (max-width: 375px){
+	.container1{
+		margin-left: 15px;
+	}
+	.border{
+		border: 1px solid gray;
+		width: 320px;
+	}
+}
+@media screen and (max-width: 360px){
+	.border{
+		border: 1px solid gray;
+		width: 290px;
+		margin-left: 5%;
+	}
+}
